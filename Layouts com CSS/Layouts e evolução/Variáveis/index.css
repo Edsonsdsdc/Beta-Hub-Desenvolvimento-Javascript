@@ -1,0 +1,6 @@
+var {
+  --bg-color: tomato;
+}
+body {
+  background-color: var(--bg-color);
+}

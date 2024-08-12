@@ -1,0 +1,30 @@
+div:hover {
+  
+}
+
+div:not(.nao) {
+ 
+}
+
+section:has(div:hover) {
+  border: 2px solid rebeccapurple;
+}
+
+div:nth-child(4) {
+   background-color: tomato;
+}
+
+div::first-letter {
+  font-size: 40px;
+}
+
+div::before {
+  content: "a";
+
+}
+
+
+div::after {
+  content: "a";
+
+}
