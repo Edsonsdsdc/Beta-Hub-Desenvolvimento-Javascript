@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  height: 100vh;
+
+  border: 2px solid green;
+}
+
+#app > div {
+  border: 1px solid black;
+}
+
+span {
+  border: 1px solid blue;
+}

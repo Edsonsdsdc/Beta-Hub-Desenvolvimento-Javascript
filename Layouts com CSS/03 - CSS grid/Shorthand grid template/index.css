@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  display: grid;
+  
+  grid-template: 
+  /*"A B B"
+  "A B B"
+  "A C D"*/
+  
+  "header main main " 80px
+  "header main main" 40px
+  "header aside footer" 50px
+  "header aside footer" 60px / 90px 1fr 2fr
+  ;
+  
+  gap: 20px;
+
+  height: 100vh;
+
+  border: 2px solid green;
+
+  padding: 30px;
+
+  box-sizing: border-box;
+}
+
+#app > * {
+  border: 1px solid rgb(202, 144, 144);
+}
+
+#app header:nth-child(1) {
+  grid-area: header ;
+}
+
+#app main:nth-child(2) {
+  grid-area: main ;
+}
+
+#app aside:nth-child(3) {
+  grid-area: aside ;
+}
+
+#app footer:nth-child(4) {
+  grid-area: footer ;
+}

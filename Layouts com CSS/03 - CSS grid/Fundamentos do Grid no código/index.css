@@ -1,0 +1,11 @@
+#app {
+  display: inline-grid;
+}
+
+#app > div {
+  border: 1px solid black;
+}
+
+span {
+  border: 1px solid blue;
+}
