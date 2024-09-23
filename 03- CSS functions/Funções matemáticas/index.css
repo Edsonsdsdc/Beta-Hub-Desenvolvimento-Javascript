@@ -1,0 +1,8 @@
+div {
+  width: calc(20% + 1rem);
+  height: min(80%, 90vh);
+  border: solid red;
+
+  font-size:  clamp(1rem, 10vw, 4rem);
+
+}
